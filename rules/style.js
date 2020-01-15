@@ -287,10 +287,6 @@ module.exports = {
         // disallow mixed spaces and tabs for indentation
         'no-mixed-spaces-and-tabs': 'error',
 
-        // disallow use of chained assignment expressions
-        // https://eslint.org/docs/rules/no-multi-assign
-        'no-multi-assign': ['error'],
-
         // disallow multiple empty lines and only one newline at the end
         'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0 }],
 
@@ -303,10 +299,6 @@ module.exports = {
 
         // disallow use of the Object constructor
         'no-new-object': 'error',
-
-        // disallow use of unary operators, ++ and --
-        // https://eslint.org/docs/rules/no-plusplus
-        'no-plusplus': 'error',
 
         // disallow certain syntax forms
         // https://eslint.org/docs/rules/no-restricted-syntax
@@ -343,14 +335,6 @@ module.exports = {
         'no-trailing-spaces': ['error', {
             skipBlankLines: false,
             ignoreComments: false,
-        }],
-
-        // disallow dangling underscores in identifiers
-        'no-underscore-dangle': ['error', {
-            allow: [],
-            allowAfterThis: false,
-            allowAfterSuper: false,
-            enforceInMethodNames: false,
         }],
 
         // disallow the use of Boolean literals in conditional expressions

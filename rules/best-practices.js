@@ -169,9 +169,6 @@ module.exports = {
         // var foo = 'Copyright \251';
         'no-octal-escape': 'error',
 
-        // disallow reassignment of function parameters
-        'no-param-reassign': 0,
-
         // disallow usage of __proto__ property
         'no-proto': 'error',
 
