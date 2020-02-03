@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ft-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fittime 前端 eslint 规则",
   "main": "index.js",
   "scripts": {

@@ -21,7 +21,7 @@ module.exports = {
 
         // require parens in arrow function arguments
         // https://eslint.org/docs/rules/arrow-parens
-        'arrow-parens': ['error', 'as-needed', {
+        'arrow-parens': ['error', 'always', {
             requireForBlockBody: true,
         }],
 
